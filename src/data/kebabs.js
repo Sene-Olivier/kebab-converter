@@ -1,62 +1,62 @@
 export default [
   {
     country: 'France',
-    code: 'EUR',
-    price: 1.60914,
+    code: 'euros',
+    price: 6.5, // Prix raisonnable pour un kebab en France
   },
   {
-    country: 'Bulgaria',
-    code: 'BGN',
-    price: 1.956344,
+    country: 'Bulgarie',
+    code: 'euros',
+    price: 4, // Prix raisonnable pour un kebab en Bulgarie
   },
   {
-    country: 'Romania',
-    code: 'BRL',
-    price: 5.306648,
+    country: 'Roumanie',
+    code: 'euros',
+    price: 3.5, // Prix raisonnable pour un kebab en Roumanie
   },
   {
-    country: 'Germany',
-    code: 'CAD',
-    price: 1.44088,
+    country: 'Allemagne',
+    code: 'euros',
+    price: 6.8, // Prix raisonnable pour un kebab en Allemagne
   },
   {
-    country: 'Span',
-    code: 'CHF',
-    price: 0.970417,
+    country: 'Espagne',
+    code: 'euros',
+    price: 5.5, // Prix raisonnable pour un kebab en Espagne
   },
   {
-    country: 'Italy',
-    code: 'CNY',
-    price: 7.675543,
+    country: 'Italie',
+    code: 'euros',
+    price: 7, // Prix raisonnable pour un kebab en Italie
   },
   {
     country: 'USA',
-    code: 'CZK',
-    price: 23.666488,
+    code: 'dollars',
+    price: 7.5, // Prix raisonnable pour un kebab aux États-Unis
   },
   {
-    country: 'Argentina',
-    code: 'BRL',
-    price: 5.306648,
+    country: 'Argentine',
+    code: 'pesos argentins',
+    price: 250, // Prix raisonnable pour un kebab en Argentine
   },
   {
     country: 'Canada',
-    code: 'CAD',
-    price: 1.44088,
+    code: 'dollars canadiens',
+    price: 8, // Prix raisonnable pour un kebab au Canada
   },
   {
-    country: 'China',
-    code: 'CHF',
-    price: 0.970417,
+    country: 'Chine',
+    code: 'yuan chinois',
+    price: 30, // Prix raisonnable pour un kebab en Chine
   },
   {
-    country: 'Singapore',
-    code: 'CNY',
-    price: 7.675543,
+    country: 'Singapour',
+    code: 'dollar singapourien',
+    price: 12, // Prix raisonnable pour un kebab à Singapour
   },
   {
-    country: 'New Zealand',
-    code: 'CZK',
-    price: 23.666488,
+    country: 'Nouvelle Zélande',
+    code: 'dollars néo-zélandais',
+    price: 120, // Prix raisonnable pour un kebab en Nouvelle-Zélande
   },
 ];
