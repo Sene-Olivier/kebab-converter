@@ -3,13 +3,13 @@ import Currencies from '../Currencies/Currencies';
 import Footer from '../Footer/Footer';
 import './App.scss';
 
-import currenciesData from '../../data/currencies';
+import kebabsData from '../../data/kebabs';
 
 function App() {
   return (
     <div className="app">
       <Header />
-      <Currencies currencies={currenciesData} />
+      <Currencies kebabs={kebabsData} />
       <Footer />
     </div>
   );

@@ -8,7 +8,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0c5b6;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {

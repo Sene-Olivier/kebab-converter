@@ -1,21 +1,21 @@
 import './Currencies.scss';
 
-type Currencies = {
-  description: string;
+type Kebabs = {
+  country: string;
   code: string;
-  rate: number;
+  price: number;
 };
 
-type CurrenciesProps = {
-  currencies: Currencies[];
+type kebabsProps = {
+  kebabs: Kebabs[];
 };
 
-function Currencies({ currencies }: CurrenciesProps) {
+function Currencies({ kebabs }: kebabsProps) {
   return (
     <ul className="currencies">
-      <li className="currencies__title">Currencies</li>
-      {currencies.map((currency) => (
-        <li className="currencies__item">{currency.description}</li>
+      <li className="currencies__title">Countries</li>
+      {kebabs.map((kebab) => (
+        <li className="currencies__item">{kebab.country}</li>
       ))}
     </ul>
   );
