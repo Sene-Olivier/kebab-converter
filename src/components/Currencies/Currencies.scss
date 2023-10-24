@@ -1,0 +1,23 @@
+.currencies {
+  background-color: white;
+  color: #bc5435;
+  width: 95%;
+  height: 400px; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  text-decoration: none;
+  list-style: none;
+}
+
+.currencies__title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #bc5435;
+  padding: 15px 0;
+}
+
+.currencies__item {
+  border-bottom: 1px solid #bc5435;
+  font-weight: 600;
+
+  padding: 10px 0;
+}
